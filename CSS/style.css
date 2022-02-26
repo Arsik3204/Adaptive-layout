@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+*{padding: 0px; margin: 0px; box-sizing: border-box;}
+
+/* Header */
+
+.logo {
+  position: absolute;
+  top:18px;
+  left: 500px;
+}
+
+.facebook {
+  position: absolute;
+  top: 25px;
+  right:528px;
+}
+
+.twitter {
+  position: absolute;
+  top: 25px;
+  right:485px;
+}
+
+.Space {
+  position: absolute;
+  top: 4px;
+  left: 560px; 
+
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Section */
+
+.container-section {
+  position: absolute;
+  top: 76px; 
+ 
+  width: 1903px;
+  height: 421px;
+
+  background-color:  #FAC960;
+}
+
+.container-text p {
+  position: absolute;
+  top: 102px;
+  left: 557.5px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 44px;
+  font-weight: bold;
+  
+
+  color: #8A6D2F;
+}
+
+.worry {
+  position: absolute;
+  top: 156px;
+  left: 730px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 44px;
+  font-weight: bold;
+  
+
+  color: #8A6D2F;
+}
+
+.email {
+  position: absolute;
+  top: 330px;
+  left: 543px;
+
+  width: 560px;
+  height: 54px;
+
+  border-radius: 0px;
+  outline: none;
+  border:none;
+}
+
+.email::placeholder {
+  position: absolute;
+  
+  padding:5px 0px 0px 30px;
+
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.btn {
+  position: absolute;
+  top: 330px;
+  left: 1103px;
+
+
+  width: 240px;
+  height: 54px;
+
+  background-color: #A8863D;
+
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.btn a {
+  display: block;
+  line-height:54px;
+  text-align: center;
+
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+
+  color: #FFFFFF;
+  
+}
+
+.btn:hover {
+  transform:rotate(360deg);
+  filter: blur(2px);
+}
+
+.container-section-two {
+  position: absolute;
+  top: 497px;
+
+  width: 1903px;
+  height:438px;
+
+  background-color: #F2F2F2;
+}
+
+.container-section-two p {
+  margin-top: 77px;
+  text-align: center;
+ 
+  font-size: 37px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+
+  color: rgba(0, 0, 0, 0.56)
+}
+
+.Lorem {
+ 
+  position: absolute;
+  width: 819px;
+  height: 60px;
+  left: calc(50% - 819px/2 + 0.5px);
+  top: 145px;
+  
+  
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 30px;
+  /* or 130% */
+  
+  text-align: center;
+  
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.Infinity-icon {
+  position: absolute;
+  top: 261px;
+  left: 845.5px;
+}
+
+.Mobile {
+  margin-top:340px;
+  text-align: center;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 37px;
+
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.Mobile-span {
+  position: absolute;
+  margin-top:16px;
+  left: calc(50% - 819px/2 + 0.5px);
+
+  width: 819px;
+  height: 60px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 30px;
+  /* or 130% */
+  
+  text-align: center;
+  
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.phone-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 1179px;
+}
+
+.container-section-three {
+  position: absolute;
+  top: 1577px;
+  width: 1903px;
+  height: 313px;
+
+  background-color: #FAC960;
+}
+
+.container-section-three p {
+  margin-top:54px;
+  text-align: center;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 37px;
+
+  color: #8A6D2F;
+}
+
+.Log {
+  position: absolute;
+  width: 506px;
+  height: 30px;
+  left: calc(50% - 506px/2);
+  top: 121px;
+
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-section {
+  position: absolute;
+  top: 1784px;
+  left: 920px;
+
+  width: 61px;
+  height: 22px;
+
+  background-color: #FFFFFF;
+  border: 1px solid #758696;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+  transition:0.5s ease;
+}
+
+.btn-section a {
+  display: block;
+  text-align: center;
+  line-height:12px;
+
+  text-decoration: none;
+}
+
+.btn-section:hover {
+  transform:scale(1.1);
+}
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  top:1890px;
+
+  width: 1903px;
+  height: 240px;
+
+  background-color: #FFFFFF;
+}
+
+.logo-footer {
+  position: absolute;
+  top: 85.43px;
+  left: 924px;
+}
+
+.social-network {
+  position: absolute;
+  top: 146px;
+  left: 903px;
+}
+
+.social-network img {
+  margin-right: 20px;
+}
